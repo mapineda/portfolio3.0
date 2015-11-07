@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolio">
+<head>
+	<!-- INSERT META TAGS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>MP | Marco Pineda</title>
+	<!-- INSERT FONT LINKS HERE -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600" rel="stylesheet" type="text/css"/>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<!-- INSERT bootstrap LINKS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<!-- INSERT LOCAL CSS -->
+	<link rel="stylesheet" href="/stylesheets/web.css"/>
+</head>
+<body>
+<!-- 	NAV BAR -->
+	<div class="website-toolbar">
+		<img src="/images/mp-logo.png" class="logo"/>
+		<a href="#bottom" class="smoothScroll">
+			<img  id="logos" src="/images/arrowdown.png" class="arrow pull-center hidden-xs">
+		</a>
+		<a href="#" class="btn-logsign flex-center">
+		 <span>Hire Marco Today!</span>
+		</a>
+	</div>
+<!-- NG-VIEW -->
+	<div ng-view></div>	
+<!-- FOOTER -->
+	<footer class="elevator">
+		<p><strong>Made with <strong><span id="logos" class="heart">♥︎</span><strong> in Austin, TX </strong></p>
+	</footer>	
+
+<!-- ANGULAR SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+<!-- MODULES -->
+
+
+<!-- CONTROLLERS -->
+
+<!-- SERVICES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="/javascripts/app.js"></script>
+<script type="text/javascript" src="/javascripts/scroll.js"></script>
+<script type="text/javascript" src="/javascripts/elevator.js"></script>
+	<script>
+            // Simple elevator usage.
+            var elementButton = document.querySelector('.elevator');
+            var elevator = new Elevator({
+                element: elementButton,
+                mainAudio: './music/elevator.mp3', // Music from http://www.bensound.com/
+                endAudio:  './music/ding.mp3'
+            });
+        </script>
+	</body>
+</html>
