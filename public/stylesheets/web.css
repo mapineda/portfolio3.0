@@ -6,39 +6,54 @@
 body {
   margin: 0 auto;
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: column;
+  -moz-flex-flow: column;
   flex-direction: column;
   -webkit-align-items: center;
+  -moz-align-items: center;
   align-items: center;
 }
 .flex-center {
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
   -webkit-align-items: center;
+  -moz-align-items: center;
   align-items: center;
   -webkit-justify-content: center; 
+  -moz-justify-content: center; 
   justify-content: center;
 }
 .flex-bottom {
   height: 100%;
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
   -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
   align-items: flex-end;
-  -webkit-justify-content: center; 
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
   justify-content: center;
 }
 .flex-bottom-right {
   height: 100%;
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
   -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
   align-items: flex-end;
-  -webkit-justify-content: flex-end; 
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end; 
   justify-content: flex-end;
 }
 .flex-right {
@@ -54,22 +69,30 @@ body {
 .flex-row {
   height: 100%;
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
   -webkit-align-items: center;
+  -moz-align-items: center;
   align-items: center;
   -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
   justify-content: space-between;      
 }
 .flex-col {
   height: 100%;
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: column;
+  -moz-flex-flow: column;
   flex-flow: column;   
   -webkit-align-items: center;
+  -moz-align-items: center;
   align-items: center;
   -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
   justify-content: space-between;      
 }
 .website-toolbar {
@@ -78,11 +101,15 @@ body {
   top: 0;
   left: 0;
   display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
   -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
   -webkit-align-items: center;
+  -moz-align-items: center;
   align-items: center;
   -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
   justify-content: space-between;
   width: 100%;
   height: 80px;
@@ -181,6 +208,7 @@ body {
 }
 .top-section .flex-row {
   -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
   align-items: flex-end;
 }
 .top-section h2 {
@@ -214,6 +242,7 @@ body {
 }
 .receipts-section .flex-row {
   -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
   align-items: flex-end;
 }
 .receipts-section .text {
@@ -253,6 +282,7 @@ body {
 }
 .trends-section .flex-row {
   -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
   align-items: flex-end;
 }
 .trends-phone-img {
@@ -314,6 +344,7 @@ body {
   width: 100%;
   height: 290px;
   -webkit-flex-flow: column;
+  -moz-flex-flow: column;
   flex-direction: column;    
 }
 .website-footer, 
