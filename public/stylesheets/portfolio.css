@@ -6,9 +6,9 @@ body {
 
 .logo {
   display: block-inline;
-  opacity: 0.6;
+  opacity: 0.8;
   width: 130px;
-  height: 100px; 
+  height: 100px;
 }
 
 .headerTitle {
@@ -169,13 +169,13 @@ ul.rig li {
 ul.rig li img {
 	max-width: 90%;
 	height: auto;
-	margin: 0 0 20px 12.5px;
+	margin: 4px 0 20px 14px;
 }
 ul.rig li h3 {
 	margin: 0 0 5px;
 }
 ul.rig li p {
-	font-size: .9em;
+	font-size: 2em;
 	line-height: 1.5em;
 	color: black;
 }
