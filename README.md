@@ -37,7 +37,7 @@ Before you begin read about the basic building blocks that assemble a MEAN.JS ap
 
 * Find me through [marcopineda.com](http://www.marcopineda.com) to see the live site.
 * Check out my [Linkedin](http://linkedin.com/in/pinedamarco)
-* Email me at mp@marcopineda.com
+* Email me at hire@marcopineda.com
 
 
 ## Credits
